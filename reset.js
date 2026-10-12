@@ -3,7 +3,7 @@
 
   const clickHandler = () => {
     $counter.textContent = 0;
-    $counter.style.color = '#000';
+    updateCounterColor($counter);
   }
 
   document.getElementById('js-reset-button').addEventListener('click', clickHandler)
